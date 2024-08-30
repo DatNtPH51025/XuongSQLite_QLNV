@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DangKyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_manv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Mã nhân viên"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_hodemnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Họ đệm nhân viên"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_tennv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Tên nhân viên"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_matkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_confrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Xác nhận mật khẩu"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btn_dangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Đăng ký"
+        android:textColor="@color/black"
+        android:background="@drawable/back_edit"
+        app:backgroundTint="@null"
+        android:padding="12dp" />
+
+</LinearLayout>

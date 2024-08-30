@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_login"
+    tools:context=".DangNhapActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_manv_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Mã nhân viên"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_matkhau_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_manv_dn"
+        android:layout_marginTop="16dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_matkhau_dn"
+        android:layout_marginTop="24dp"
+        android:text="Đăng nhập"
+        android:textColor="@android:color/black"
+        android:background="@drawable/back_edit"
+        app:backgroundTint="@null"
+        android:padding="12dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btn_dangky_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_dangnhap"
+        android:layout_marginTop="8dp"
+        android:text="Đăng ký"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@drawable/back_edit"
+        app:backgroundTint="@null"
+        android:padding="12dp"
+        android:layout_marginHorizontal="16dp"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

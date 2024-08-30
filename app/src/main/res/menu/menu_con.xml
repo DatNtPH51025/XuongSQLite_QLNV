@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Nhóm quản lý -->
+    <group
+        android:id="@+id/group_quan_ly"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/qlpb"
+            android:title="Quản lý phòng ban"
+            android:icon="@drawable/ic_room"
+        app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/qlnv"
+            android:title="Quản lý nhân viên"
+            android:icon="@drawable/ic_employee"
+        app:showAsAction="ifRoom"/>
+    </group>
+
+    <!-- Nhóm khác -->
+    <group
+        android:id="@+id/group_khac"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/cntk"
+            android:title="Cập nhật tài khoản"
+            android:icon="@drawable/update"
+        app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/dangxuat"
+            android:title="Đăng xuất"
+            android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

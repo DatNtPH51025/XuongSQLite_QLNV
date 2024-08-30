@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      android:background="@drawable/back_item"
+      >
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="1"
+          >
+          <TextView
+              android:id="@+id/txt_manv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_mapbnv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_hodemnv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_tennv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_luongnv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_tuoinv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_diachinv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+          <TextView
+              android:id="@+id/txt_chucvunv"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Ma nhan vien :" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+          <ImageButton
+              android:id="@+id/btn_update_nv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/update"
+              android:background="@color/white"
+              />
+          <ImageButton
+              android:id="@+id/btn_delete_nv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/baseline_delete_24"
+              android:background="#FFFFFF"
+              />
+      </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">xuongsql</string>
+    <string name="chuoi_open">Mở </string>
+    <string name="chuoi_dong">Đóng</string>
+</resources>
