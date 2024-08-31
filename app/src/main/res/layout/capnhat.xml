@@ -2,88 +2,81 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#9DECF6"
     android:gravity="center"
+    android:orientation="vertical">
 
-    android:background="#F8C2B1"
-    >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update thông tin"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:layout_marginBottom="10dp"
-        />
+        android:text="Update thông tin"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/edt_manv_cn"
         android:layout_width="346dp"
-        android:hint="Nhập vào nhân viên"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_margin="10dp"
-
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào nhân viên"
+        android:padding="10dp"
         />
 
     <Spinner
         android:id="@+id/sp_phongban_add_cn"
         android:layout_width="315dp"
         android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/edt_hodemnv_cn"
-        android:hint="Nhập vào họ đệm"
         android:layout_width="346dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_marginTop="10dp"
-        />
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào họ đệm"
+        android:padding="10dp" />
+
     <EditText
         android:id="@+id/edt_tennv_cn"
         android:layout_width="346dp"
-        android:hint="Nhập vào tên"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_marginTop="10dp"
-        />
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào tên"
+        android:padding="10dp" />
 
     <EditText
         android:id="@+id/edt_tuoinv_cn"
         android:layout_width="346dp"
-        android:hint="Nhập vào tuổi"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_marginTop="10dp"
-        />
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào tuổi"
+        android:padding="10dp" />
+
     <EditText
         android:id="@+id/edt_diachinv_cn"
         android:layout_width="346dp"
-        android:hint="Nhập vào địa chỉ"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_marginTop="10dp"
-        />
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào địa chỉ"
+        android:padding="10dp" />
+
     <EditText
         android:id="@+id/edt_chucvunv_cn"
         android:layout_width="346dp"
-        android:hint="Nhập vào chức vụ"
         android:layout_height="wrap_content"
-        android:background="@drawable/back_edit"
-        android:padding="10dp"
         android:layout_margin="10dp"
-        />
+        android:background="@drawable/back_edit"
+        android:hint="Nhập vào chức vụ"
+        android:padding="10dp" />
 
     <Button
         android:id="@+id/btn_update_nv_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update"
-        />
-
-
-
+        android:text="Update" />
 </LinearLayout>

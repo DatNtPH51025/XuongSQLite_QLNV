@@ -2,11 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#F8C2B1"
+    android:background="#7C8AD9"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
-
     >
 
     <TextView
@@ -86,23 +85,23 @@
         android:hint="Nhập vào chức vụ"
         android:padding="10dp" />
 
-<!--    <EditText-->
-<!--        android:id="@+id/edt_emailnv"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="10dp"-->
-<!--        android:background="@drawable/back_edit"-->
-<!--        android:hint="Nhập vào email"-->
-<!--        android:padding="10dp" />-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/edt_emailnv"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:background="@drawable/back_edit"-->
+    <!--        android:hint="Nhập vào email"-->
+    <!--        android:padding="10dp" />-->
 
-<!--    <EditText-->
-<!--        android:id="@+id/edt_sdtnv"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="10dp"-->
-<!--        android:background="@drawable/back_edit"-->
-<!--        android:hint="Nhập vào số điện thoại"-->
-<!--        android:padding="10dp" />-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/edt_sdtnv"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:background="@drawable/back_edit"-->
+    <!--        android:hint="Nhập vào số điện thoại"-->
+    <!--        android:padding="10dp" />-->
 
     <EditText
         android:id="@+id/edt_matkhaunv"

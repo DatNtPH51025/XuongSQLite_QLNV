@@ -9,14 +9,13 @@
         android:id="@+id/tx_tenpb_sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Spinner Item"
-        android:textSize="18sp"
-        android:textColor="@color/colorPrimary"
-        android:padding="8dp"
-        android:gravity="center_vertical"
         android:background="?android:attr/selectableItemBackground"
         android:ellipsize="end"
+        android:gravity="center_vertical"
         android:maxLines="1"
-        />
+        android:padding="8dp"
+        android:text="Spinner Item"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
 
 </LinearLayout>

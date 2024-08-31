@@ -77,5 +77,4 @@
         android:background="@drawable/back_edit"
         app:backgroundTint="@null"
         android:padding="12dp" />
-
 </LinearLayout>
